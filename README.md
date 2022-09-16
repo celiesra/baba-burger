@@ -1,2 +1,2 @@
 # baba-burger
-Bu site Esra ve Emraj tarafından tasarlanıp kodlanmıştır. :) :)
+Bu site Esra ve Emrah tarafından tasarlanıp kodlanmıştır. :) :)
