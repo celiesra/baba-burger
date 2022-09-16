@@ -1,8 +1,12 @@
 //JS
 
-//Lazy-Load
-var lazyLoadInstance = new LazyLoad({
-    elements_selector: ".lazyload"
-});
+$(document).ready(function () {
+    
+    //Lazy-Load
+    var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazyload"
+    });
 
-//Menu
+    //Menu
+
+});
