@@ -1,1 +1,44 @@
 /////HEADER
+
+//Header#
+#header {
+    width: 100%;
+
+    //header
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 200px;
+
+        //&_logo
+        &_logo {
+            img {object-fit: cover;}
+        }
+
+        //&_menu
+        &_menu {
+            li {
+                display: inline-block;
+                padding: 0 20px;
+                border-right: 2px solid black;
+                margin-right: 50px;
+                &:last-child {
+                    margin-right: 0;
+                    border-right: none;
+                }
+                a {
+                    i {font-size: 30px; color: black}
+                }
+            }
+        }
+
+        //&_order
+        &_order {
+            display: flex;
+            align-items: center;
+            i {color: black; font-size: 50px;}
+            h6 {padding-left: 10px; font-weight: bold; line-height: normal; font-size: 18px; text-transform: uppercase;}
+        }
+    }
+}
